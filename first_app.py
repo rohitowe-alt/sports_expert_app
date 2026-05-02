@@ -11,7 +11,7 @@ st.title("🧠 World Class Sports Advisor")
 st.markdown("Generate a world class sports advice report using Sports, Type_of_player, and Task.")
 
 # --- User Inputs ---
-openai_key = getenv("OPENAI_API_KEY")
+openai_key = st.secrets.get("OPENAI_API_KEY")
 
 sport = st.text_area("Sport", placeholder="e.g., Cricket...")
 type_of_player = st.text_area("Type_of_Player", placeholder="I am a casual player")

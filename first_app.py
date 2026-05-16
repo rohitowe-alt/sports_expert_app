@@ -7,7 +7,7 @@ from os import getenv
 # --- Page Config ---
 st.set_page_config(page_title="World Class Sports Advisor", layout="centered")
 
-st.title("🧠 World Class Sports Advisor")
+st.title("🧠 Why so serious")
 st.markdown("Generate a world class sports advice report using Sports, Type_of_player, and Task.")
 
 # --- User Inputs ---
